@@ -82,7 +82,7 @@ class SalesPersonSal extends SalesPerson implements SalesInterface{
         }
         else
         {
-            System.out.println("Sales cannot be negative!\nExiting...........");
+            System.out.println("Sales cannot be negative!");
             System.exit(1);
         }
     }
